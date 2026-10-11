@@ -1,0 +1,151 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.barra-superior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+  padding: 20px;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.enlaces {
+  display: flex;
+  gap: 15px;
+}
+
+.enlaces a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+}
+
+.enlaces a.activa {
+  font-weight: bold;
+}
+
+.nombre-pagina {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+}
+
+.contenedor-cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+  background-color: #228B22;
+  color: white;
+  padding: 50px;
+  border-radius: 8px;
+  width: 800px;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.card-texto {
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.columna-restaurantes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  gap: 50px;
+}
+
+
+
+.buscador input {
+  width: 500px;
+  padding: 18px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  outline: none;
+}
+
+.restaurantes {
+  width: 800px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #228B22;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.restaurante {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: white;
+}
+
+.restaurante img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.restaurante h3 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+
+.restaurante p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.pagina-interna .contenedor-cards {
+  justify-content: center;
+}
+
